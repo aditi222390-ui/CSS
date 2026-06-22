@@ -1,0 +1,49 @@
+/* Universal Selector */
+* {
+    margin: 10px;
+}
+
+/* Element Selector */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(153, 153, 145);
+}
+
+/* ID Selector */
+#heading {
+    color: navy;
+    text-align: center;
+}
+
+/* Class Selector */
+.intro {
+    color: green;
+    font-size: 20px;
+}
+
+/* Descendant Selector */
+.box p {
+    color: red;
+}
+
+/* Group Selector */
+h1, p {
+    padding: 5px;
+}
+
+/* Attribute Selector */
+a[href] {
+    color: rgb(0, 128, 75);
+    text-decoration: none;
+}
+
+/* Hover Selector */
+a:hover {
+    color: orange;
+}
+
+/* Pseudo-class Selector */
+li:first-child {
+    color: blue;
+    font-weight: bold;
+}
