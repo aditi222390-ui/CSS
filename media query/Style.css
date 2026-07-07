@@ -1,0 +1,30 @@
+ody {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+}
+
+.container {
+    width: 70%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Media Query for screens 600px or smaller */
+@media screen and (max-width: 600px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    .container {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    h1 {
+        color: red;
+    }
+}
